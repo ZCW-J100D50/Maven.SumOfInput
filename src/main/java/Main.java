@@ -2,6 +2,7 @@
  * Created by iyasuwatts on 10/17/17.
  * Modified by kristofer in Jan 2024
  */
+import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args){
@@ -13,15 +14,23 @@ public class Main {
         System.out.println(sum);
 
     }
-    
+//top learn today is using IntelliJ's suggestions on errors to fix them
+    //it often helps
+    //below I attempted a for loop but not quite getting it yet
+    //will move forward and repair after I am current with labs.
+    private static void getInputNumber() {
+    return;
+
     // do this one and the lab is complete. really.
     // return the sum of 0 to n... if n == 3, the result should be 6
-    int sumOfNumbers(int n) {
+    static int sumOfNumbers(int n) {
         return 0;
     }
+    for(int n; <= number ; n++) {
+
+
     
-    
-    int getInputNumber() { // gee, may thi sis useful in another lab?
+    int getInputNumber;() { // gee, may thi sis useful in another lab?
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter any number: ");
 
